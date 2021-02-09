@@ -51,6 +51,8 @@ body {font-family: 'Roboto', sans-serif;}
 
 /*footer*/
 
+footer {background-color: var(--background-black);}
+
 .adres {color: var(--white-text);}
 
 .cont {color: var(--greey-op60);}
