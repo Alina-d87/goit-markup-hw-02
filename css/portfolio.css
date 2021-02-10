@@ -1,0 +1,43 @@
+:root {
+    --blue-logo: rgba(33, 150, 243, 1);
+    --blue-btn: rgba(24, 140, 232, 1);
+
+    --black-logo: rgba(0, 0, 0, 1);
+    --black-text: rgba(33, 33, 33, 1);
+    
+    --greey: rgba(117, 117, 117, 1);
+    --greey-op60: rgba(255, 255, 255, 0.6);
+    
+    --white-text: rgba(255, 255, 255, 1);
+
+    --background-black: rgba(47, 48, 58, 1);
+}
+
+body {font-family: 'Roboto', sans-serif;}
+
+/*шапка*/
+
+.logotip {font-family: 'Raleway', sans-serif; color: var(--black-logo);}
+
+.logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo);}
+
+.nav-styd {color: var(--black-text);}
+
+.styd-li:hover {color: var(--blue-logo);}
+
+.info {color: var(--greey);}
+
+.stydia {color: var(--black-text);}
+
+/*слот*/
+.visually-hidden { position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;}
+
+.btn-vse {color: var(--white-text); background-color: var(--blue-logo);}
+
+.btn-web { color: var(--black-text);}
+
+.list-poster {color: var(--black-text);}
+
+.list-web {color: var(--greey);}
+
+/*footer v styd css//*/
