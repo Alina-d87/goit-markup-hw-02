@@ -17,42 +17,46 @@ body {font-family: 'Roboto', sans-serif;}
 
 /*шапка*/
 
-.logotip {font-family: Raleway, sans-serif; color: var(--black-logo);}
+header {text-decoration: none;}
 
-.logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo);}
+.logotip {font-family: Raleway, sans-serif; color: var(--black-logo); font-style: normal; font-size: 26px; font-weight: 700;}
 
-.styd:hover { text-decoration: none; color: var(--blue-logo);}
+.logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo); font-style: normal; font-size: 26px; font-weight: 400;}
 
-.link:hover {color: var(--blue-logo);}
+.styd:hover { text-decoration: none; color: var(--blue-logo); font-weight: 500; font-style: normal; font-size: 14px;}
 
-.port {color: var(--black-text)}
+.link:hover {color: var(--blue-logo); font-weight: 500; font-style: normal; font-size: 14px;}
 
-.tel {color: var(--greey-light);}
+.port {color: var(--black-text); font-weight: 500; font-style: normal; font-size: 14px;}
+
+.tel {color: var(--greey-light);font-weight: 500; font-style: normal; font-size: 14px;}
 
 
 /*мейн*/
 
-.efect {color: var(--white-text); background-color: var(--background-black);}
+.efect {color: var(--white-text); background-color: var(--background-black); font-weight: 900; font-style: normal; font-size: 44px;}
 
-.efect-btn {color: var(--white-text); background-color: var(--blue-btn);}
+.efect-btn {color: var(--white-text); background-color: var(--blue-btn);font-family: 'Roboto', sans-serif ; font-weight: 700; font-style: normal; font-size: 16px;}
 
 
 /*секция текст*/
 
-.text h3 {color: var(--black-text);}
+.text-h {color: var(--black-text); font-weight: 700; font-style: normal; font-size: 14px;}
 
-.text p {color: var(--greey-light);}
+.text-p {color: var(--greey-light); font-weight: 400; font-style: normal; font-size: 14px;}
 
-.text-head {color: var(--black-text);}
+.text-head {color: var(--black-text); font-weight: 700; font-style: normal; font-size: 36px;}
 
-.li-cart {color: var(--black-text);}
+.li-cart {color: var(--black-text);font-weight: 500; font-style: normal; font-size: 16px;}
 
-.list {color: var(--greey-light);}
+.list {color: var(--greey-light); font-weight: 400; font-style: normal; font-size: 14px;}
 
 /*footer*/
 
 footer {background-color: var(--background-black);}
 
-.adres {color: var(--white-text);}
+.logofoter {color: var(--white-text);}
 
-.cont {color: var(--greey-op60);}
+.adres {color: var(--white-text); font-style: normal;font-weight: 400; font-size: 14px;}
+
+.cont {color: var(--greey-op60); font-weight: 400; font-style: normal; font-size: 14px;}

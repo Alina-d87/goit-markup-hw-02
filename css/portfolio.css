@@ -17,27 +17,37 @@ body {font-family: 'Roboto', sans-serif;}
 
 /*шапка*/
 
-.logotip {font-family: 'Raleway', sans-serif; color: var(--black-logo);}
+.logotip {font-family: 'Raleway', sans-serif; color: var(--black-logo); font-weight: 700; font-style: normal; font-size: 26px;}
 
-.logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo);}
+.logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo);font-weight: 400; font-style: normal; font-size: 26px;}
 
-.nav-styd {color: var(--black-text);}
+.nav-styd {color: var(--black-text); text-decoration: none; font-weight: 500; font-style: normal; font-size: 14px;}
 
 .styd-li:hover {color: var(--blue-logo);}
 
-.info {color: var(--greey);}
+.info { text-decoration: none;  color: var(--greey); font-weight: 500; font-style: normal; font-size: 14px;}
 
 .stydia {color: var(--black-text);}
 
 /*слот*/
 .visually-hidden { position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;}
 
-.btn-vse {color: var(--white-text); background-color: var(--blue-logo);}
+.btn-vse {color: var(--white-text); background-color: var(--blue-logo); font-family: 'Roboto', sans-serif; font-weight: 500; font-style: normal; font-size: 16px;}
 
-.btn-web { color: var(--black-text);}
+.btn-web { color: var(--black-text); font-family: 'Roboto', sans-serif; font-weight: 500; font-style: normal; font-size: 16px;}
 
-.list-poster {color: var(--black-text);}
+.list-poster {color: var(--black-text); font-weight: 700; font-style: normal; font-size: 18px;}
 
-.list-web {color: var(--greey);}
+.list-web {color: var(--greey); font-weight: 400; font-style: normal; font-size: 16px;}
 
 /*footer v styd css//*/
+
+footer {background-color: var(--background-black);}
+
+.logofoter {color: var(--white-text);}
+
+.adres .cont {font-weight: 400;font-style: normal; font-size: 14px;}
+
+.adres { color: var(--white-text); font-style: normal;}
+
+.cont {color: var(--greey-op60);}
