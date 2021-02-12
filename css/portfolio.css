@@ -17,7 +17,9 @@ body {font-family: 'Roboto', sans-serif;}
 
 /*шапка*/
 
-.logotip {font-family: 'Raleway', sans-serif; color: var(--black-logo); font-weight: 700; font-style: normal; font-size: 26px;}
+header {text-decoration: none;}
+
+.logotip { text-decoration: none; font-family: 'Raleway', sans-serif; color: var(--black-logo); font-weight: 700; font-style: normal; font-size: 26px;}
 
 .logo { font-family: 'Oleo Seript', sans-serif; color: var(--blue-logo);font-weight: 400; font-style: normal; font-size: 26px;}
 
